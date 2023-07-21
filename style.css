@@ -1,1 +1,193 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap')
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+body{
+    background-color:#EFF5F5;
+}
+header{
+    background-color: #00425A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    height: 5px 10%;
+}
+.header .nav-links {
+    list-style: none;
+}
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.header .nav-links li:hover {
+    transform: scale(1.2);
+
+}
+.header .nav-links a{
+    font-size: 700;
+    color: #EFF5F5;
+    text-decoration: none;
+}
+.header .nav-links li a:hover {
+    color: #FC7300;
+}
+.header .btn button{
+    font-weight: 700;
+    color: #1F8A70;
+    padding: 10px 25px;
+    background: #EFF5F5;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.header .btn button:hover{
+    background-color: #FC7300;
+    color: #00425A;
+    transform: scale(1.2);
+}
+.title {
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    background-image:url(/multimedia/portada.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+.title h1{
+    text-align: center;
+    font-size: 100px;
+    color: #EFF5F5;
+    text-shadow: 2px 2px 1px black;
+}
+.title p{
+    text-align: center;
+    font-size: 70px;
+    color: #EFF5F5;
+    text-shadow: 2px 2px 1px black
+}
+.title-contact {    
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    background-image:url(/multimedia/portada.jpg) ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+}
+.title-contact h1{
+    text-align: center;
+    font-size: 70px;
+    color: #EFF5F5;
+    text-shadow: 2px 2px 1px black
+}
+.title-contact p{
+    text-align: center;
+    font-size: 40px;
+    color: #EFF5F5;
+    text-shadow: 2px 2px 1px black
+}
+.quien {
+    font-size: 80px;
+    color:#00425A;
+    text-align: center;
+}
+.quienes {
+
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    font-size: 33px;
+}
+.quienes img{
+    border-radius: 50%;
+}
+.quienp {
+    font-size: 40px;
+    color: #EFF5F5;
+    text-align: center;
+}
+.propuesta {
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+}
+.card{
+    background-color: #00425A;
+    border-radius: 20%;
+    box-shadow: 0 0 #1F8A70 ;
+}
+.container{
+    position: relative;
+    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100% );
+}
+.imgcontainer{
+    height: 450px;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}
+.details{
+    text-align: center;
+    color: #EFF5F5;
+}
+#news-feed .news-block {
+    display: flex;
+    width: 100%;
+}
+#news-feed .news-block .leftblock {
+    width: 65%;
+    padding-right: 1%;
+
+}
+#news-feed .news-block .rightblock {
+    width: 35%;
+    ;}
+#news-feed h1 {
+    color: #1F8A70;
+    font-size: 40px;
+    text-align: center;
+}
+#news-feed h2 {
+    color: #1F8A70;
+    font-size: 40px;
+    text-align: center;
+}
+#news-feed p{
+    color:#00425A;
+    font-size: 20px;
+    text-align: center;
+}
+
+.picnews {
+    width: 600px;
+    margin-left: 75px;
+    border-radius: 6px;
+}
+.picnews2{
+    width: 300px;
+    margin-left: 75px;
+    border-radius: 6px;
+}
+.footer{
+    background-color: #00425A;
+    color: #EFF5F5;
+    text-align: center;
+}
+.maps{
+    text-decoration: none;
+    color: #EFF5F5;
+}
+.redes a img {
+    height: 75px;
+    width: 75px;
+}

@@ -3,42 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/PROYECTO/style.css">
+    <link rel="stylesheet" href="/style.css">
     <title>UntrefSchool</title>
 </head>
 <body>
     <header class="header">
         <nav>
             <ul class="nav-links">
-                <li> <a href="">Quienes somos</a></li>
-                <li> <a href="">¿Por qué elegirnos?</a></li>
-                <li> <a href="">Propuesta educativa</a></li>
-                <li> <a href="">Últimas noticias</a></li>
+                <li> <a href="#quinessomos?">Quienes somos</a></li>
+                <li> <a href="#porqueelejirnos?">¿Por qué elegirnos?</a></li>
+                <li> <a href="#propuestaeducativa">Propuesta educativa</a></li>
+                <li> <a href="#ultimasnoticias">Últimas noticias</a></li>
             </ul>
         </nav>
-        <a class="btn" href=""><button>CONTACTO</button></a>
+        <a class="btn" href="/contacto.html"><button>CONTACTO</button></a>
     </header>
     <main>
         <div class="title">
             <h1>UNTREF SCHOOL</h1>
             <p> Estudiá en el colegio más innovador de América Latina</p>
         </div>
-        <h1 class="quien">QUIENES SOMOS</h1>
-        <div class="quienes">
-            <img src="./multimedia/quienes.jpg" alt="quienes">
-        </div>
-        <p class="quienp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ut sequi ad obcaecati quam esse odit quos ex quasi impedit dignissimos asperiores, praesentium molestiae pariatur alias minima corrupti blanditiis tempore.</p>
-        </div>   
-        <h1 class="quien">¿Por qué elegirnos?</h1>
-        <div class="quienes">
+        <section>
+          <h1 id="quinessomos?" class="quien">QUIENES SOMOS</h1>
+          <div class="quienes"> 
+            <img class=p3 src="./multimedia/quienes.jpg" alt="quienes">
+            <p> UNTREF SCHOOL aspira a que sus graduados sean ciudadanos responsables, comprometidos con la sociedad argentina y su desarrollo equitativo
+            somos un grupo de profesionales de la educacion con la vocacion de lograr estos cometidos. Ex alumnos y padres de una nueva generacion de estudiantes.
+            </p>
+          </div>
+        </section>  
+        <br>
+        <section>
+          <h1 id=porqueelejirnos? class="quien">¿POR QUÉ ELEGIRNOS?</h1>
+          <div class="quienes">
+            <p class= p3 > Elegir este colegio por el compromiso del directorio, secretarios y cuerpo de docentes abocados a la enseñanza. Estamos a la vanguardia de la educacion en america latina.
+              fuimos elegidos como el mejor colegio en 2020, 2021 y 2022 por el Group Asosiation of school to America
+            </p>
             <img src="./multimedia/porque.jpg" alt="porque">
-        </div>
-        <p class="quienp"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis fugit consectetur corporis non cumque veniam, nesciunt quidem incidunt nemo saepe natus consequatur ratione quaerat dolorem voluptatum quia assumenda, explicabo eum.</p>
-        
+          </div>
+        </section>
+        <br>
+        <section>
+          <h1 id="propuestaeducativa" class="quien">PROPUESTA EDUCATIVA</h1>
+          <div class="cards">
+            <div class="card card1">
+              <div class="container">
+                <img class="imgcontainer" src="./multimedia/robotica.jpg" alt="robotica">
+              </div>
+              <div class="details">
+                <h3>ROBOTICA</h3>
+                <p>Aprender robotica desde tan pequeños en un taller <br> de mas alta tecnologia </p>
+              </div>
+            </div>
+            <div class="card card2">
+              <div class="container">
+                <img class="imgcontainer" src="./multimedia/musica.jpg" alt="musica">
+              </div>
+              <div class="details">
+                <h3>Musica</h3>
+                <p>Contamos con el conservatorio mas grande del pais y profesores de excelencia para
+                  que <br> desarrolles al maximo tu talento</p>
+              </div>
+            </div>
+            <div class="card card3">
+              <div class="container">
+                <img class="imgcontainer" src="./multimedia/laboratorio.jpg" alt="laboratorio">
+              </div>
+              <div class="details">
+                <h3>Ciencias</h3>
+                <p>A la vanguardia, el laboratorio con certificaciones ISO. Equipos de ultima generacion
+                  que utilizan las <br> empresas lider de sudamerica</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <h1 id="ultimasnoticias" class="quien"> ÚLTIMAS NOTICIAS </h1>
+        <section id="news-feed">
+          <div class="news-block">
+            <div class="leftblock"> 
+              <article>
+                <h1>Se lanzo la incripcion para la marathon escolar</h1>
+                <img class="picnews" src="./multimedia/atletismo.jpg" alt="marathon">
+                <p>Ya podes anotarte a la carrera anual de 5k que ya es un clasico en nuestro colegio. Con atletas invitados, donde se destacan profesionales, ex alumnos y fondistas de otros colegios
+                  la partida comienza a las 10 am de este domingo. Shows en vivos, food trucks con gastronomia variada, servicion de same y paradas de hidratacion, hacen de este evento de los mas importantes del calendario escolar.
+                </p>
+              </article>
+            </div>
+            <div class="rightblock"> 
+              <article>
+                <h2>Clea es campeona en olimpiadas matematicas</h2>
+                <img class="picnews2" src="./multimedia/matematicas.jpg" alt="">
+                <p>Nuestra alumna de 12 años quedo primera en el examen que se realizo en Mar del Plata. En la edicion n° 45 de las olimpiadas matematicas Argentinas Clea con un puntaje de 96 pts se proclamo como mejor nota y medalla de oro.
+                  felicitaciones!!!
+                </p>
+              </article>
+            </div>
+          </div>
+
+        </section>
     </main>
-<br>
-
-
     <footer class="footer">
         <div>
             <h2>ESTAMOS AQUÍ</h2>
@@ -49,7 +112,7 @@
         </div>
         <br>
         <div class="redes">
-            <a href="https://api.whatsapp.com/send?phone=5493416812450&amp;fbclid=IwAR1H2bTgwz-wC3vkSevBAbQ3omMneCBHkSWPmI_4JaW4qOK83YCqTsweo_I" target="_blank"><img src="/PROYECTO/multimedia/ws_footer.jpg" alt="wsp"></a>
+            <a href="https://api.whatsapp.com/send?phone=5493416812450&amp;fbclid=IwAR1H2bTgwz-wC3vkSevBAbQ3omMneCBHkSWPmI_4JaW4qOK83YCqTsweo_I" target="_blank"><img src="/multimedia/ws_footer.jpg" alt="wsp"></a>
             <a href="https://www.facebook.com/untref"> <img src="./multimedia/footer_fb.jpg" alt="facebook"></a>
             <a href="https://twitter.com/"><img src="./multimedia/tw.jpg" alt="twitter"></a>
             <a href="https://www.instagram.com/untref/"><img src="./multimedia/footer_in.jpg" alt="instagram"></a>
